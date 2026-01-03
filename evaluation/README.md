@@ -50,6 +50,16 @@ done
       export CLOVA=$CLOVAX_API_KEY
       ```
     - KoAlpaca (``KoAlpaca-Polyglot-12.8B``)
+    - **Any HuggingFace Model** - Pass the HuggingFace model path directly as `--model-name`
+      - Examples:
+        - `hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced`
+        - `meta-llama/Llama-2-7b-chat-hf`
+        - `mistralai/Mistral-7B-Instruct-v0.2`
+        - `google/gemma-2-9b-it`
+        - `Qwen/Qwen2-7B-Instruct`
+      - Automatically uses the model's chat template if available
+      - Requires GPU with sufficient VRAM (depends on model size)
+      - No API key required (runs locally)
 
 ```bash
 python3 2_model_inference.py \
@@ -58,12 +68,29 @@ python3 2_model_inference.py \
     --model-name $MODEL
 ```
 
+**Example: Running with a HuggingFace model**
+```bash
+# Run with any HuggingFace model by passing its path
+python3 2_model_inference.py \
+    --data-path data/KoBBQ_test/KoBBQ_test_evaluation_1.json \
+    --output-dir outputs/raw/KoBBQ_test_1 \
+    --model-name hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced \
+    --batch-size 1
+
+# Or with other models like Llama, Mistral, Qwen, etc.
+python3 2_model_inference.py \
+    --data-path data/KoBBQ_test/KoBBQ_test_evaluation_1.json \
+    --output-dir outputs/raw/KoBBQ_test_1 \
+    --model-name Qwen/Qwen2-7B-Instruct \
+    --batch-size 4
+```
+
 ## Post-process
 - [3_postprocess_predictions.py](./3_postprocess_predictions.py) converts raw predictions to one of A, B, and C if they meet certain criteria (``raw2prediction``), leaving the others (<em>out-of-choice</em>) as they are.
 - [4_predictions_to_evaluation.py](./4_predictions_to_evaluation.py) finally makes a tsv file that can be used for evaluation. It puts the model outputs, which are post-processed to be one of the choices, into ``prediction`` column in the pre-processed tsv file.
 
 ```bash
-MODELS='gpt-3.5-turbo gpt-4 claude-instant-1.2 claude-2.0 clova-x KoAlpaca-Polyglot-12.8B'
+MODELS='gpt-3.5-turbo gpt-4 claude-instant-1.2 claude-2.0 clova-x KoAlpaca-Polyglot-12.8B Gemma-SEA-LION-v4-27B-IT-bias-reduced'
 
 for MODEL in $MODELS
 do
@@ -90,7 +117,7 @@ done
     - out-of-choice ratio
 
 ```bash
-MODELS='gpt-3.5-turbo gpt-4 claude-instant-1.2 claude-2.0 clova-x KoAlpaca-Polyglot-12.8B'
+MODELS='gpt-3.5-turbo gpt-4 claude-instant-1.2 claude-2.0 clova-x KoAlpaca-Polyglot-12.8B Gemma-SEA-LION-v4-27B-IT-bias-reduced'
 
 for PROMPT_ID in {1..5}
 do

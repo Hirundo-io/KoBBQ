@@ -21,6 +21,7 @@ from model_inference.openai_utils import GPT_MODEL, get_gpt_response
 from model_inference.claude_utils import CLAUDE_MODEL, get_claude_response
 from model_inference.hyperclova_utils import HYPERCLOVA_MODEL, get_hyperclova_response
 from model_inference.koalpaca_utils import KOALPACA_MODEL, load_koalpaca, get_koalpaca_response
+from model_inference.huggingface_utils import is_huggingface_model, load_huggingface_model, get_huggingface_response
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -44,13 +45,22 @@ if __name__ == "__main__":
     print(topic)
     
     model_name = args.model_name
+    # Sanitize model name for file paths (replace / with _)
+    model_name_safe = model_name.replace('/', '_')
 
-    if args.batch_size != 1 and model_name not in ['clova-x', 'KoAlpaca-Polyglot-12.8B']:
-        raise NotImplementedError
+    # Check batch size support
+    # API models (except clova-x) don't support batching, local models do
+    api_models_no_batch = set(GPT_MODEL) | set(CLAUDE_MODEL)
+    if args.batch_size != 1 and model_name in api_models_no_batch:
+        raise NotImplementedError(f"Batching not supported for {model_name}")
 
     koalpaca = None
-    if model_name in KOALPACA_MODEL: # run with GPU
+    if model_name in KOALPACA_MODEL:  # run with GPU
         koalpaca = load_koalpaca(model_name)
+
+    huggingface_model = None
+    if is_huggingface_model(model_name):  # Any HuggingFace model - run with GPU
+        huggingface_model = load_huggingface_model(model_name)
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -58,13 +68,13 @@ if __name__ == "__main__":
     data = json.load(open(data_path, 'r', encoding='utf-8'))
     prefix = data['prefix']
 
-    output_path = output_dir / f'{topic}_{model_name}_predictions.tsv'
+    output_path = output_dir / f'{topic}_{model_name_safe}_predictions.tsv'
     if output_path.is_file():
         print(f'Continue on {output_path}')
-        done_ids = pd.read_csv(output_dir / f'{topic}_{model_name}_predictions.tsv', sep='\t')['guid'].to_list()
+        done_ids = pd.read_csv(output_dir / f'{topic}_{model_name_safe}_predictions.tsv', sep='\t')['guid'].to_list()
     else:
         done_ids = []
-        with open(output_dir / f'{topic}_{model_name}_predictions.tsv', 'w', encoding='utf-8') as f:
+        with open(output_dir / f'{topic}_{model_name_safe}_predictions.tsv', 'w', encoding='utf-8') as f:
             writer = csv.writer(f, delimiter='\t')
             writer.writerow(['time', 'topic', 'guid', 'truth', 'raw'])
 
@@ -105,8 +115,17 @@ if __name__ == "__main__":
                 max_tokens=args.max_tokens,
                 batch_size=args.batch_size
             )
+        elif huggingface_model is not None:
+            # Generic HuggingFace model inference
+            result = get_huggingface_response(
+                prompt,
+                model_name,
+                huggingface_model,
+                max_tokens=args.max_tokens,
+                batch_size=args.batch_size
+            )
         else:
-            raise ValueError(model_name)
+            raise ValueError(f"Unknown model: {model_name}")
 
         for i, instance in enumerate(instances):
             open_trial = 0
@@ -115,7 +134,7 @@ if __name__ == "__main__":
                     raise Exception("File Open Fail")
 
                 try:
-                    with open(output_dir / f"{topic}_{model_name}_predictions.tsv", "a", encoding="utf-8") as f:
+                    with open(output_dir / f"{topic}_{model_name_safe}_predictions.tsv", "a", encoding="utf-8") as f:
                         writer = csv.writer(f, delimiter='\t')
                         writer.writerow([datetime.now(), topic, instance[-1], instance[-2], result[i]])
                     break

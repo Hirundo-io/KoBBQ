@@ -28,8 +28,10 @@ def parse_args():
     parser.add_argument('--data-path', type=str, required=True)
     parser.add_argument('--model-name', type=str, required=True)
     parser.add_argument('--output-dir', type=str, default='outputs')
+    parser.add_argument('--output-filename', type=str, default=None, help='Custom output filename (default: auto-generated from topic and model)')
     parser.add_argument('--max-tokens', type=int, default=30)
     parser.add_argument('--batch-size', type=int, default=1)
+    parser.add_argument('--use-quantization', action='store_true', help='Use 8-bit quantization for faster inference')
     args = parser.parse_args()
     return args
 
@@ -60,7 +62,7 @@ if __name__ == "__main__":
 
     huggingface_model = None
     if is_huggingface_model(model_name):  # Any HuggingFace model - run with GPU
-        huggingface_model = load_huggingface_model(model_name)
+        huggingface_model = load_huggingface_model(model_name, use_quantization=args.use_quantization)
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -68,13 +70,19 @@ if __name__ == "__main__":
     data = json.load(open(data_path, 'r', encoding='utf-8'))
     prefix = data['prefix']
 
-    output_path = output_dir / f'{topic}_{model_name_safe}_predictions.tsv'
+    # Determine output filename
+    if args.output_filename:
+        output_filename = args.output_filename
+    else:
+        output_filename = f'{topic}_{model_name_safe}_predictions.tsv'
+    
+    output_path = output_dir / output_filename
     if output_path.is_file():
         print(f'Continue on {output_path}')
-        done_ids = pd.read_csv(output_dir / f'{topic}_{model_name_safe}_predictions.tsv', sep='\t')['guid'].to_list()
+        done_ids = pd.read_csv(output_path, sep='\t')['guid'].to_list()
     else:
         done_ids = []
-        with open(output_dir / f'{topic}_{model_name_safe}_predictions.tsv', 'w', encoding='utf-8') as f:
+        with open(output_path, 'w', encoding='utf-8') as f:
             writer = csv.writer(f, delimiter='\t')
             writer.writerow(['time', 'topic', 'guid', 'truth', 'raw'])
 
@@ -134,7 +142,7 @@ if __name__ == "__main__":
                     raise Exception("File Open Fail")
 
                 try:
-                    with open(output_dir / f"{topic}_{model_name_safe}_predictions.tsv", "a", encoding="utf-8") as f:
+                    with open(output_path, "a", encoding="utf-8") as f:
                         writer = csv.writer(f, delimiter='\t')
                         writer.writerow([datetime.now(), topic, instance[-1], instance[-2], result[i]])
                     break

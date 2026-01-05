@@ -1,0 +1,24 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+KoBBQ_test_evaluation_2
+Loading HuggingFace model: hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced
+Loading checkpoint shards:   0%|          | 0/12 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/12 [00:00<?, ?it/s]
+/home/vscode/kobbq/.venv/lib/python3.12/site-packages/accelerate/utils/modeling.py:1566: UserWarning: Current model requires 33026 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Flash Attention 2 not available (CUDA out of memory. Tried to allocate 2.63 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.73 GiB is free. Process 6793 has 0 bytes memory in use. Including non-PyTorch memory, this process has 0 bytes memory in use. Process 7342 has 0 bytes memory in use. Process 7343 has 0 bytes memory in use. Process 7344 has 0 bytes memory in use. Of the allocated memory 0 bytes is allocated by PyTorch, and 0 bytes is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)), trying eager attention...
+Loading checkpoint shards:   0%|          | 0/12 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 3/12 [00:00<00:00, 29.84it/s]Loading checkpoint shards: 100%|██████████| 12/12 [00:00<00:00, 61.25it/s]
+Successfully loaded: hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   0%|          | 0/214 [00:00<?, ?it/s]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][AThe following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [2:19:53<00:00, 8393.79s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [2:19:53<00:00, 8393.79s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   0%|          | 1/214 [2:19:53<496:37:58, 8393.79s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [2:20:51<00:00, 8451.88s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [2:20:51<00:00, 8451.88s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   1%|          | 2/214 [4:40:45<496:18:49, 8427.97s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [2:30:46<00:00, 9046.12s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [2:30:46<00:00, 9046.12s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   1%|▏         | 3/214 [7:11:31<510:30:59, 8710.23s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [2:23:37<00:00, 8617.68s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [2:23:37<00:00, 8617.68s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   2%|▏         | 4/214 [9:35:09<505:57:56, 8673.70s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A

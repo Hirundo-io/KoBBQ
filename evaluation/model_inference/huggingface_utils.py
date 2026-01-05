@@ -33,7 +33,7 @@ def is_huggingface_model(model_name):
     return model_name not in known_models
 
 
-def load_huggingface_model(model_name, torch_dtype=torch.bfloat16, device_map="auto", **kwargs):
+def load_huggingface_model(model_name, torch_dtype=torch.bfloat16, device_map="auto", use_quantization=False, **kwargs):
     """
     Load any HuggingFace causal language model.
     
@@ -42,6 +42,7 @@ def load_huggingface_model(model_name, torch_dtype=torch.bfloat16, device_map="a
                    'mistralai/Mistral-7B-Instruct-v0.2', 'google/gemma-2b-it', etc.)
         torch_dtype: Data type for model weights (default: bfloat16)
         device_map: Device mapping strategy (default: "auto")
+        use_quantization: Whether to use 8-bit quantization for faster inference (default: False)
         **kwargs: Additional arguments passed to from_pretrained
         
     Returns:
@@ -55,6 +56,8 @@ def load_huggingface_model(model_name, torch_dtype=torch.bfloat16, device_map="a
         return _MODEL_CACHE[model_name]
     
     print(f"Loading HuggingFace model: {model_name}")
+    if use_quantization:
+        print("Using 8-bit quantization for faster inference")
     
     # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(
@@ -75,13 +78,24 @@ def load_huggingface_model(model_name, torch_dtype=torch.bfloat16, device_map="a
         **kwargs
     }
     
-    # Try loading with different attention implementations for compatibility
+    # Add quantization if requested
+    if use_quantization:
+        model_kwargs['load_in_8bit'] = True
+    
+    # Try loading with Flash Attention 2 first (fastest), then eager
     try:
+        model_kwargs['attn_implementation'] = 'flash_attention_2'
         model = AutoModelForCausalLM.from_pretrained(model_name, **model_kwargs)
+        print("Using Flash Attention 2 for faster inference")
     except Exception as e:
-        print(f"Default loading failed ({e}), trying with eager attention...")
+        print(f"Flash Attention 2 not available ({e}), trying eager attention...")
         model_kwargs['attn_implementation'] = 'eager'
-        model = AutoModelForCausalLM.from_pretrained(model_name, **model_kwargs)
+        try:
+            model = AutoModelForCausalLM.from_pretrained(model_name, **model_kwargs)
+        except Exception as e2:
+            print(f"Eager attention failed ({e2}), trying default...")
+            del model_kwargs['attn_implementation']
+            model = AutoModelForCausalLM.from_pretrained(model_name, **model_kwargs)
     
     result = {
         'model': model,

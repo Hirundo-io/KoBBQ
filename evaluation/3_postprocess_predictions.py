@@ -24,8 +24,15 @@ def parse_args():
 
 
 def raw2prediction(raw, choices):
+    # Handle NaN/None values
+    if pd.isna(raw) or raw is None:
+        return ''
+    
+    # Convert to string if not already
+    raw = str(raw)
+    
     try:
-        prediction = re.search('^\s*\(?(?P<raw>[^\.\n]*)\s*', raw).groupdict()['raw']
+        prediction = re.search(r'^\s*\(?(?P<raw>[^\.\n]*)\s*', raw).groupdict()['raw']
     except:
         prediction = ''
         

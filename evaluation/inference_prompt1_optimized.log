@@ -1,0 +1,653 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+KoBBQ_test_evaluation_1
+Loading HuggingFace model: hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced
+Loading checkpoint shards:   0%|          | 0/12 [00:00<?, ?it/s]Loading checkpoint shards:   8%|▊         | 1/12 [00:01<00:17,  1.59s/it]Loading checkpoint shards:  17%|█▋        | 2/12 [00:03<00:15,  1.55s/it]Loading checkpoint shards:  25%|██▌       | 3/12 [00:04<00:13,  1.53s/it]Loading checkpoint shards:  33%|███▎      | 4/12 [00:06<00:12,  1.53s/it]Loading checkpoint shards:  42%|████▏     | 5/12 [00:07<00:10,  1.53s/it]Loading checkpoint shards:  50%|█████     | 6/12 [00:09<00:09,  1.52s/it]Loading checkpoint shards:  58%|█████▊    | 7/12 [00:10<00:07,  1.52s/it]Loading checkpoint shards:  67%|██████▋   | 8/12 [00:12<00:06,  1.52s/it]Loading checkpoint shards:  75%|███████▌  | 9/12 [00:13<00:04,  1.52s/it]Loading checkpoint shards:  83%|████████▎ | 10/12 [00:15<00:03,  1.52s/it]Loading checkpoint shards:  92%|█████████▏| 11/12 [00:16<00:01,  1.53s/it]Loading checkpoint shards: 100%|██████████| 12/12 [00:16<00:00,  1.11s/it]Loading checkpoint shards: 100%|██████████| 12/12 [00:16<00:00,  1.41s/it]
+Using Flash Attention 2 for faster inference
+Successfully loaded: hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   0%|          | 0/214 [00:00<?, ?it/s]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][AThe following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.88s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.88s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   0%|          | 1/214 [00:06<24:26,  6.88s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.19s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.19s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   1%|          | 2/214 [00:13<22:52,  6.48s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.32s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.32s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   1%|▏         | 3/214 [00:19<22:31,  6.41s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.17s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.17s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   2%|▏         | 4/214 [00:25<22:05,  6.31s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.21s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.21s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   2%|▏         | 5/214 [00:31<21:51,  6.28s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.11s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.11s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   3%|▎         | 6/214 [00:37<21:34,  6.22s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.37s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.37s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   3%|▎         | 7/214 [00:44<21:38,  6.27s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.27s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.27s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   4%|▎         | 8/214 [00:50<21:31,  6.27s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.75s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:06<00:00,  6.75s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   4%|▍         | 9/214 [00:57<21:56,  6.42s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:07<00:00,  7.76s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:07<00:00,  7.76s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   5%|▍         | 10/214 [01:05<23:14,  6.83s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.99s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.99s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   5%|▌         | 11/214 [01:18<29:29,  8.72s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.46s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.46s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   6%|▌         | 12/214 [01:36<39:20, 11.68s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.07s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.07s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   6%|▌         | 13/214 [01:49<40:33, 12.11s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.59s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.59s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   7%|▋         | 14/214 [02:07<45:52, 13.76s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.07s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.08s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   7%|▋         | 15/214 [02:23<47:58, 14.47s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.35s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.35s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   7%|▋         | 16/214 [02:36<46:38, 14.13s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.08s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.08s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   8%|▊         | 17/214 [02:48<44:22, 13.52s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.78s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.79s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   8%|▊         | 18/214 [03:00<42:27, 13.00s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.01s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.01s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   9%|▉         | 19/214 [03:11<40:18, 12.40s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.00s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.01s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:   9%|▉         | 20/214 [03:25<41:40, 12.89s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.88s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.88s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  10%|▉         | 21/214 [03:44<47:14, 14.69s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.70s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.70s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  10%|█         | 22/214 [03:57<45:05, 14.09s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.45s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.45s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  11%|█         | 23/214 [04:08<42:20, 13.30s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.17s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.17s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  11%|█         | 24/214 [04:21<42:00, 13.27s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.33s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.34s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  12%|█▏        | 25/214 [04:37<43:45, 13.89s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.53s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.53s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  12%|█▏        | 26/214 [04:53<46:01, 14.69s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.89s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.89s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  13%|█▎        | 27/214 [05:04<42:14, 13.55s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.60s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.60s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  13%|█▎        | 28/214 [05:21<44:51, 14.47s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.56s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.56s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  14%|█▎        | 29/214 [05:37<46:33, 15.10s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.09s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.09s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  14%|█▍        | 30/214 [05:49<43:33, 14.20s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.86s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.86s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  14%|█▍        | 31/214 [06:00<40:15, 13.20s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.73s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.73s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  15%|█▍        | 32/214 [06:12<38:42, 12.76s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.23s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.24s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  15%|█▌        | 33/214 [06:29<42:33, 14.11s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.52s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.53s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  16%|█▌        | 34/214 [06:48<46:18, 15.44s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.63s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.63s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  16%|█▋        | 35/214 [06:59<42:39, 14.30s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.72s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.72s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  17%|█▋        | 36/214 [07:17<45:28, 15.33s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:01<00:00,  1.95s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:01<00:00,  1.96s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  17%|█▋        | 37/214 [07:19<33:23, 11.32s/it]Error during generation: CUDA out of memory. Tried to allocate 306.00 MiB. GPU 0 has a total capacity of 79.15 GiB of which 65.44 MiB is free. Including non-PyTorch memory, this process has 0 bytes memory in use. Process 7341 has 0 bytes memory in use. Process 7342 has 0 bytes memory in use. Process 7343 has 0 bytes memory in use. Process 7344 has 0 bytes memory in use. Of the allocated memory 55.12 GiB is allocated by PyTorch, and 823.59 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.23s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.23s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  18%|█▊        | 38/214 [07:34<36:38, 12.49s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.68s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.68s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  18%|█▊        | 39/214 [07:48<37:28, 12.85s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:02<00:00,  2.29s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:02<00:00,  2.29s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  19%|█▊        | 40/214 [07:50<28:05,  9.68s/it]Error during generation: CUDA out of memory. Tried to allocate 310.00 MiB. GPU 0 has a total capacity of 79.15 GiB of which 179.44 MiB is free. Including non-PyTorch memory, this process has 0 bytes memory in use. Process 7341 has 0 bytes memory in use. Process 7342 has 0 bytes memory in use. Process 7343 has 0 bytes memory in use. Process 7344 has 0 bytes memory in use. Of the allocated memory 55.36 GiB is allocated by PyTorch, and 945.21 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.73s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.73s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  19%|█▉        | 41/214 [08:03<30:34, 10.60s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:21<00:00, 21.17s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:21<00:00, 21.17s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  20%|█▉        | 42/214 [08:24<39:29, 13.77s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.91s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.91s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  20%|██        | 43/214 [08:42<42:47, 15.02s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.25s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.25s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  21%|██        | 44/214 [08:53<39:21, 13.89s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.26s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.26s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  21%|██        | 45/214 [09:10<41:07, 14.60s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.72s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.72s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  21%|██▏       | 46/214 [09:25<41:50, 14.94s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:19<00:00, 19.35s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:19<00:00, 19.35s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  22%|██▏       | 47/214 [09:45<45:16, 16.27s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.09s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.10s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  22%|██▏       | 48/214 [10:00<44:02, 15.92s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:22<00:00, 22.12s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:22<00:00, 22.12s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  23%|██▎       | 49/214 [10:22<48:53, 17.78s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.91s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.91s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  23%|██▎       | 50/214 [10:41<49:32, 18.12s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:08<00:00,  8.91s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:08<00:00,  8.91s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  24%|██▍       | 51/214 [10:50<41:43, 15.36s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.08s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.08s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  24%|██▍       | 52/214 [11:01<38:00, 14.08s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.18s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.18s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  25%|██▍       | 53/214 [11:12<35:26, 13.21s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.61s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.61s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  25%|██▌       | 54/214 [11:28<37:09, 13.93s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.63s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.63s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  26%|██▌       | 55/214 [11:44<39:04, 14.75s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.03s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.03s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  26%|██▌       | 56/214 [11:58<38:16, 14.53s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.29s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.29s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  27%|██▋       | 57/214 [12:10<35:29, 13.56s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.89s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.89s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  27%|██▋       | 58/214 [12:24<35:31, 13.66s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.75s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.75s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  28%|██▊       | 59/214 [12:33<32:16, 12.49s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.06s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.06s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  28%|██▊       | 60/214 [12:44<30:57, 12.06s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.96s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.96s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  29%|██▊       | 61/214 [12:57<31:27, 12.33s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.41s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.41s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  29%|██▉       | 62/214 [13:12<32:49, 12.96s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.15s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.15s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  29%|██▉       | 63/214 [13:26<33:31, 13.32s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.12s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.12s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  30%|██▉       | 64/214 [13:39<33:09, 13.26s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.67s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.67s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  30%|███       | 65/214 [13:51<31:44, 12.78s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.79s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.79s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  31%|███       | 66/214 [14:02<30:03, 12.19s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.36s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.36s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  31%|███▏      | 67/214 [14:14<29:59, 12.24s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.99s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.99s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  32%|███▏      | 68/214 [14:27<30:20, 12.47s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.04s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.04s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  32%|███▏      | 69/214 [14:41<31:16, 12.94s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.02s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.03s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  33%|███▎      | 70/214 [14:53<30:24, 12.67s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.58s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.58s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  33%|███▎      | 71/214 [15:09<32:17, 13.55s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.02s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.02s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  34%|███▎      | 72/214 [15:26<34:32, 14.59s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.04s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.04s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  34%|███▍      | 73/214 [15:40<33:54, 14.43s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.65s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.65s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  35%|███▍      | 74/214 [15:51<31:43, 13.60s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.24s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.24s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  35%|███▌      | 75/214 [16:03<29:52, 12.89s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.54s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.54s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  36%|███▌      | 76/214 [16:16<30:06, 13.09s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.16s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.17s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  36%|███▌      | 77/214 [16:28<29:15, 12.81s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.33s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.34s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  36%|███▋      | 78/214 [16:43<30:05, 13.27s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.74s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.74s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  37%|███▋      | 79/214 [16:55<29:30, 13.12s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.62s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.62s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  37%|███▋      | 80/214 [17:12<31:38, 14.17s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.70s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.70s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  38%|███▊      | 81/214 [17:24<29:46, 13.43s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.76s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.76s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  38%|███▊      | 82/214 [17:35<28:27, 12.93s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.32s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.32s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  39%|███▉      | 83/214 [17:47<27:11, 12.45s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.02s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.02s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  39%|███▉      | 84/214 [18:00<27:20, 12.62s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.37s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.37s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  40%|███▉      | 85/214 [18:11<26:20, 12.25s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.97s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.97s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  40%|████      | 86/214 [18:23<25:57, 12.17s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.09s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.09s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  41%|████      | 87/214 [18:35<25:42, 12.15s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.24s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.24s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  41%|████      | 88/214 [18:51<27:27, 13.08s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.07s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.07s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  42%|████▏     | 89/214 [19:04<27:14, 13.08s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.34s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.35s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  42%|████▏     | 90/214 [19:16<26:34, 12.86s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.25s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.25s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  43%|████▎     | 91/214 [19:28<25:59, 12.68s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.14s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.14s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  43%|████▎     | 92/214 [19:41<26:03, 12.82s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.53s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.54s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  43%|████▎     | 93/214 [19:56<26:53, 13.34s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.47s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.47s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  44%|████▍     | 94/214 [20:08<26:09, 13.08s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.22s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.22s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  44%|████▍     | 95/214 [20:21<25:25, 12.82s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.07s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.07s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  45%|████▍     | 96/214 [20:35<25:57, 13.20s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.01s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.01s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  45%|████▌     | 97/214 [20:45<23:52, 12.24s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.75s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.75s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  46%|████▌     | 98/214 [20:56<23:23, 12.10s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.47s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.47s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  46%|████▋     | 99/214 [21:07<22:15, 11.61s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.67s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.68s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  47%|████▋     | 100/214 [21:25<25:31, 13.43s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.78s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.78s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  47%|████▋     | 101/214 [21:35<23:48, 12.64s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.53s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.54s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  48%|████▊     | 102/214 [21:50<24:39, 13.21s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.04s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.04s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  48%|████▊     | 103/214 [22:03<24:20, 13.16s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.62s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.63s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  49%|████▊     | 104/214 [22:16<23:50, 13.00s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.78s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.78s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  49%|████▉     | 105/214 [22:28<23:30, 12.94s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.43s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.43s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  50%|████▉     | 106/214 [22:44<24:38, 13.69s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:19<00:00, 19.71s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:19<00:00, 19.71s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  50%|█████     | 107/214 [23:04<27:37, 15.49s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.08s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.08s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  50%|█████     | 108/214 [23:17<26:05, 14.77s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.83s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.83s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  51%|█████     | 109/214 [23:28<24:18, 13.89s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.65s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.65s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  51%|█████▏    | 110/214 [23:38<21:52, 12.62s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.21s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.21s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  52%|█████▏    | 111/214 [23:50<21:27, 12.50s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.57s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.57s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  52%|█████▏    | 112/214 [24:01<20:16, 11.93s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.79s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.79s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  53%|█████▎    | 113/214 [24:16<21:31, 12.79s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.01s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.01s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  53%|█████▎    | 114/214 [24:33<23:26, 14.06s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:08<00:00,  8.28s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:08<00:00,  8.28s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  54%|█████▎    | 115/214 [24:41<20:20, 12.33s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.92s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:18<00:00, 18.92s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  54%|█████▍    | 116/214 [25:00<23:22, 14.31s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.59s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.59s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  55%|█████▍    | 117/214 [25:12<21:49, 13.50s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.71s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.71s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  55%|█████▌    | 118/214 [25:24<21:13, 13.26s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.51s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.51s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  56%|█████▌    | 119/214 [25:36<20:10, 12.74s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.27s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.27s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  56%|█████▌    | 120/214 [25:50<20:40, 13.20s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.73s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.73s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  57%|█████▋    | 121/214 [26:07<22:06, 14.26s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.92s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.92s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  57%|█████▋    | 122/214 [26:17<19:52, 12.96s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.34s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.34s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  57%|█████▋    | 123/214 [26:31<20:17, 13.37s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.47s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.47s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  58%|█████▊    | 124/214 [26:44<19:39, 13.11s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.31s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.31s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  58%|█████▊    | 125/214 [26:55<18:38, 12.57s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.83s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.83s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  59%|█████▉    | 126/214 [27:06<17:40, 12.05s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.94s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.94s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  59%|█████▉    | 127/214 [27:20<18:17, 12.62s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.13s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.13s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  60%|█████▉    | 128/214 [27:32<17:52, 12.47s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.73s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.73s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  60%|██████    | 129/214 [27:47<18:37, 13.15s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.24s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.24s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  61%|██████    | 130/214 [27:57<17:11, 12.28s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.45s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.45s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  61%|██████    | 131/214 [28:09<17:03, 12.33s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.28s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.28s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  62%|██████▏   | 132/214 [28:22<16:50, 12.32s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:19<00:00, 19.72s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:19<00:00, 19.72s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  62%|██████▏   | 133/214 [28:41<19:37, 14.54s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.79s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.79s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  63%|██████▎   | 134/214 [28:54<18:41, 14.02s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.72s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.72s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  63%|██████▎   | 135/214 [29:07<17:57, 13.63s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.97s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.97s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  64%|██████▎   | 136/214 [29:23<18:38, 14.34s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.47s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.47s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  64%|██████▍   | 137/214 [29:33<16:55, 13.19s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.92s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.92s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  64%|██████▍   | 138/214 [29:50<18:07, 14.31s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.37s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.37s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  65%|██████▍   | 139/214 [30:04<17:32, 14.03s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.09s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.09s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  65%|██████▌   | 140/214 [30:16<16:35, 13.45s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.40s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.40s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  66%|██████▌   | 141/214 [30:30<16:42, 13.74s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.29s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.29s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  66%|██████▋   | 142/214 [30:40<15:14, 12.70s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.16s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.16s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  67%|██████▋   | 143/214 [30:56<15:54, 13.44s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.79s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.80s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  67%|██████▋   | 144/214 [31:08<15:27, 13.25s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.58s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:17<00:00, 17.59s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  68%|██████▊   | 145/214 [31:26<16:44, 14.55s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.09s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.09s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  68%|██████▊   | 146/214 [31:36<14:58, 13.22s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.04s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.04s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  69%|██████▊   | 147/214 [31:47<14:01, 12.57s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.80s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.80s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  69%|██████▉   | 148/214 [32:00<13:54, 12.64s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.30s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.30s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  70%|██████▉   | 149/214 [32:13<13:54, 12.84s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.41s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.41s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  70%|███████   | 150/214 [32:30<14:50, 13.91s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.93s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.93s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  71%|███████   | 151/214 [32:42<13:59, 13.32s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.32s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.32s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  71%|███████   | 152/214 [32:53<13:08, 12.72s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.93s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.93s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  71%|███████▏  | 153/214 [33:05<12:41, 12.49s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.97s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.97s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  72%|███████▏  | 154/214 [33:19<12:56, 12.93s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.07s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.07s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  72%|███████▏  | 155/214 [33:34<13:21, 13.58s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.15s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.15s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  73%|███████▎  | 156/214 [33:46<12:42, 13.15s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.21s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.22s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  73%|███████▎  | 157/214 [34:01<13:05, 13.77s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.34s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.34s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  74%|███████▍  | 158/214 [34:15<12:44, 13.65s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.87s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.87s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  74%|███████▍  | 159/214 [34:25<11:44, 12.81s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.77s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.77s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  75%|███████▍  | 160/214 [34:41<12:19, 13.70s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.02s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.02s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  75%|███████▌  | 161/214 [34:56<12:27, 14.10s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.49s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.49s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  76%|███████▌  | 162/214 [35:09<11:48, 13.62s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.87s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.87s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  76%|███████▌  | 163/214 [35:22<11:23, 13.40s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.36s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.36s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  77%|███████▋  | 164/214 [35:32<10:24, 12.49s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.28s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.28s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  77%|███████▋  | 165/214 [35:46<10:38, 13.03s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.61s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.61s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  78%|███████▊  | 166/214 [35:57<09:50, 12.30s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.58s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:15<00:00, 15.58s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  78%|███████▊  | 167/214 [36:13<10:24, 13.29s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.22s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.22s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  79%|███████▊  | 168/214 [36:25<09:56, 12.97s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.46s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.46s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  79%|███████▉  | 169/214 [36:37<09:36, 12.82s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.32s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.32s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  79%|███████▉  | 170/214 [36:50<09:17, 12.67s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.38s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.38s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  80%|███████▉  | 171/214 [36:59<08:22, 11.68s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.66s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.67s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  80%|████████  | 172/214 [37:13<08:35, 12.28s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.88s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.88s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  81%|████████  | 173/214 [37:29<09:20, 13.66s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.21s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.22s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  81%|████████▏ | 174/214 [37:42<08:49, 13.23s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.96s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.96s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  82%|████████▏ | 175/214 [37:53<08:09, 12.55s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.62s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.62s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  82%|████████▏ | 176/214 [38:04<07:46, 12.27s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.87s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.87s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  83%|████████▎ | 177/214 [38:15<07:18, 11.85s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.83s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.83s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  83%|████████▎ | 178/214 [38:27<07:06, 11.85s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.27s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.27s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  84%|████████▎ | 179/214 [38:38<06:48, 11.68s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.49s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.49s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  84%|████████▍ | 180/214 [38:49<06:24, 11.32s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.80s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.80s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  85%|████████▍ | 181/214 [39:01<06:18, 11.47s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.22s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.22s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  85%|████████▌ | 182/214 [39:13<06:14, 11.69s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.92s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.92s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  86%|████████▌ | 183/214 [39:28<06:32, 12.66s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:08<00:00,  8.81s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:08<00:00,  8.81s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  86%|████████▌ | 184/214 [39:37<05:45, 11.51s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.03s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.03s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  86%|████████▋ | 185/214 [39:48<05:29, 11.37s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.90s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.90s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  87%|████████▋ | 186/214 [39:58<05:14, 11.23s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.91s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:09<00:00,  9.91s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  87%|████████▋ | 187/214 [40:08<04:52, 10.84s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.89s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.89s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  88%|████████▊ | 188/214 [40:19<04:42, 10.86s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.51s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.52s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  88%|████████▊ | 189/214 [40:36<05:13, 12.56s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.67s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.68s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  89%|████████▉ | 190/214 [40:50<05:09, 12.90s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.66s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.66s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  89%|████████▉ | 191/214 [41:02<04:54, 12.83s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.12s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.12s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  90%|████████▉ | 192/214 [41:14<04:37, 12.62s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.91s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.91s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  90%|█████████ | 193/214 [41:28<04:33, 13.01s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.85s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.85s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  91%|█████████ | 194/214 [41:41<04:19, 12.96s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.58s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.58s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  91%|█████████ | 195/214 [41:56<04:15, 13.45s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.78s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.78s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  92%|█████████▏| 196/214 [42:09<04:03, 13.55s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.37s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.37s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  92%|█████████▏| 197/214 [42:24<03:54, 13.80s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.24s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.24s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  93%|█████████▎| 198/214 [42:35<03:28, 13.03s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.87s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.88s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  93%|█████████▎| 199/214 [42:46<03:05, 12.39s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.79s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.79s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  93%|█████████▎| 200/214 [43:01<03:03, 13.11s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.96s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.96s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  94%|█████████▍| 201/214 [43:12<02:42, 12.47s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.39s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.39s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  94%|█████████▍| 202/214 [43:23<02:25, 12.15s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.69s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:14<00:00, 14.70s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  95%|█████████▍| 203/214 [43:38<02:22, 12.91s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.86s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.86s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  95%|█████████▌| 204/214 [43:50<02:05, 12.60s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.63s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.63s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  96%|█████████▌| 205/214 [44:02<01:53, 12.61s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.33s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.33s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  96%|█████████▋| 206/214 [44:16<01:42, 12.83s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.78s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.78s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  97%|█████████▋| 207/214 [44:27<01:27, 12.52s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.03s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:13<00:00, 13.03s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  97%|█████████▋| 208/214 [44:41<01:16, 12.67s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.61s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.61s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  98%|█████████▊| 209/214 [44:53<01:03, 12.66s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.62s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:10<00:00, 10.62s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  98%|█████████▊| 210/214 [45:04<00:48, 12.05s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.67s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:16<00:00, 16.67s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  99%|█████████▊| 211/214 [45:20<00:40, 13.44s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.97s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.97s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced:  99%|█████████▉| 212/214 [45:32<00:25, 13.00s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.06s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:12<00:00, 12.06s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced: 100%|█████████▉| 213/214 [45:44<00:12, 12.72s/it]
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced):   0%|          | 0/1 [00:00<?, ?it/s][A
+Generating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.97s/it][AGenerating (hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced): 100%|██████████| 1/1 [00:11<00:00, 11.98s/it]
+hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced: 100%|██████████| 214/214 [45:56<00:00, 12.50s/it]hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced: 100%|██████████| 214/214 [45:56<00:00, 12.88s/it]
+KoBBQ_test_evaluation_1 - hirundo-io/Gemma-SEA-LION-v4-27B-IT-bias-reduced done
